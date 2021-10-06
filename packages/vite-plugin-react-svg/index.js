@@ -37,7 +37,7 @@ module.exports = (options = {}) => {
     svgo,
     ref,
     memo,
-    replaceAttrValues,
+    svgrConfig,
     svgProps,
     titleProp,
   } = options;
@@ -76,9 +76,9 @@ module.exports = (options = {}) => {
               svgo,
               ref,
               memo,
-              replaceAttrValues,
               svgProps,
               titleProp,
+              ...svgrConfig,
             });
 
             if (isBuild) {

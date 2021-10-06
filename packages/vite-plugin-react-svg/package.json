@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-react-svg",
-  "version": "0.2.0",
+  "name": "@nexapp/vite-plugin-react-svg",
+  "version": "0.0.1",
   "description": "Import SVG files as React Components",
   "keywords": [
     "vite-plugin",
@@ -9,8 +9,8 @@
     "vite",
     "react"
   ],
-  "bugs": "https://github.com/visualfanatic/vite-svg/issues",
-  "repository": "visualfanatic/vite-svg",
+  "bugs": "https://github.com/nexapp/vite-plugin-react-svg/issues",
+  "repository": "nexapp/vite-plugin-react-svg",
   "license": "MIT",
   "author": "Damian Stasik <npm@coded.pl>",
   "dependencies": {

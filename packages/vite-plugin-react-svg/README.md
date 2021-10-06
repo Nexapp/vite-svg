@@ -1,6 +1,10 @@
 <h1 align="center">vite-plugin-react-svg</h1>
 <p align="center">Extend Vite with ability to use SVG files as React components.</p>
 
+**Original Repo**: https://github.com/visualfanatic/vite-svg/tree/master/packages/vite-plugin-react-svg
+
+Merge Request Pending
+
 ### Features:
 - [SVGO](https://github.com/svg/svgo) optimization
 - [SVGR](https://react-svgr.com) customization
