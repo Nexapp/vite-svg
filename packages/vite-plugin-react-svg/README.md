@@ -1,6 +1,10 @@
 <h1 align="center">vite-plugin-react-svg</h1>
 <p align="center">Extend Vite with ability to use SVG files as React components.</p>
 
+## Original Repo: [https://github.com/visualfanatic/vite-svg/tree/master/packages/vite-plugin-react-svg](https://github.com/visualfanatic/vite-svg/tree/master/packages/vite-plugin-react-svg)
+
+Merge Request Pending
+
 ### Features:
 - [SVGO](https://github.com/svg/svgo) optimization
 - [SVGR](https://react-svgr.com) customization
@@ -9,14 +13,14 @@
 
 #### Currently supported Vite version:
 
-<p><code>2.0.0-beta.61</code></p>
+<p><code> >=3.0.0 </code></p>
 
 ### Install
 
 ```bash
-yarn add --dev vite-plugin-react-svg
+yarn add --dev @nexapp/vite-plugin-react-svg
 
-npm i -D vite-plugin-react-svg
+npm i -D @nexapp/vite-plugin-react-svg
 ```
 
 ### Setup
@@ -24,7 +28,7 @@ npm i -D vite-plugin-react-svg
 ```js
 // vite.config.js
 const reactRefresh = require('@vitejs/plugin-react-refresh');
-const reactSvgPlugin = require('vite-plugin-react-svg');
+const reactSvgPlugin = require('@nexapp/vite-plugin-react-svg');
 
 module.exports = {
   plugins: [
